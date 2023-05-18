@@ -89,7 +89,14 @@ DATABASES = {
         "HOST": "db",
         "PORT": 5432,
     },
-
+    "test": {
+        "ENGINE": "django.db.backends.postgresql_psycopg2",
+        "NAME": "test",
+        "USER": "postgres",
+        "PASSWORD": "postgres",
+        "HOST": "test_db",
+        "PORT": 5433,
+    }
 }
 
 # Password validation

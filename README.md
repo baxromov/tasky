@@ -7,7 +7,8 @@ Password: 1
 - Django / DRF
 - Redis
 - Docker
-- Pytest
+
+the test cases checked during container running
 ```
 ## Do you have Docker?
 Look over:
@@ -18,6 +19,10 @@ https://www.docker.com
 After installing docker if you don't have you should run this command:
 ```docker
 docker-compose up --build -d
+```
+also if shou want the process just run:
+```docker
+docker-compose up --build
 ```
 and open the 
 

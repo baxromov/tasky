@@ -5,6 +5,7 @@ python manage.py makemigrations
 python manage.py migrate
 python manage.py create_user
 python manage.py create_product 50
+python manage.py test
 # Running gunicorn server with three workers
 # Start Gunicorn processes
 echo "Starting Gunicorn."
